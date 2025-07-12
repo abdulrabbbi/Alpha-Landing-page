@@ -148,6 +148,7 @@ const IndustryInsightChart = () => {
                     display: "flex",
                     alignItems: "center",
                     width: "100%",
+                    margin: "0px"
                   }}
                 >
                   <div style={{ width: "50%", paddingRight: "1rem" }}>
@@ -156,6 +157,7 @@ const IndustryInsightChart = () => {
                         fontSize: "13px",
                         color: "#374151",
                         textAlign: "left",
+                        lineHeight: 1.1
                       }}
                     >
                       {item.keyword}
@@ -185,6 +187,7 @@ const IndustryInsightChart = () => {
                         color: "#374151",
                         width: "40px",
                         textAlign: "right",
+                        margin: 0,  
                       }}
                     >
                       {item.popularity}
